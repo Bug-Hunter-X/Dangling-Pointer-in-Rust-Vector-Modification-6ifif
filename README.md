@@ -1,0 +1,1 @@
+This repository demonstrates a common error involving dangling pointers in Rust when working with vectors. The `bug.rs` file shows code that attempts to modify a vector through a raw pointer after the vector has potentially been reallocated.  The `bugSolution.rs` file provides a safe and correct alternative using vector indexing.
